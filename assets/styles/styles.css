@@ -11,6 +11,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    transition: all 0.5s 0s ease-in-out;
+    text-decoration: underline;
+}
+
 body {
     box-sizing: border-box;
     display: flex;
@@ -19,7 +24,7 @@ body {
 }
 
 main {
-    flex: 1;
+    flex: 2;
 }
 
 header {
